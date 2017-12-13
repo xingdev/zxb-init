@@ -1,0 +1,27 @@
+{
+  "name": "zxb-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "zxb-init": "./bin/zxb-init.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "starbo <xingbo0227@hotmail.com>",
+  "license": "",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "through2": "^2.0.3",
+    "vfs": "^0.2.2",
+    "vinyl-fs": "^3.0.0",
+    "which": "^1.3.0"
+  },
+  "devDependencies": {
+    "coffee": "^4.1.0",
+    "mocha": "^4.0.1",
+    "rimraf": "^2.6.2"
+  }
+}
